@@ -15,7 +15,6 @@ public class DefaultAgent extends Agent {
         addBehaviour(new FindAverage(this, /*TimeUnit.SECONDS.toMillis(1)*/100, (List<String>)args[0]));
     }
 
-
     public double getNumber() {
         return number;
     }
@@ -24,3 +23,4 @@ public class DefaultAgent extends Agent {
         this.number = number;
     }
 }
+

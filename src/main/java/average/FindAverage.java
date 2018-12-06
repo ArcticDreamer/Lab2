@@ -41,7 +41,6 @@ public class FindAverage extends TickerBehaviour {
             msg.setContent(Double.toString(number));
             agent.send(msg);
 
-
             //получаем сообщение, делаем расчеты
             double tmp = number;
             for (int i = 0; i < 40; i++) {

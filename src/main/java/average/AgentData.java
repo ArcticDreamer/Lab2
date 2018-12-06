@@ -2,6 +2,7 @@ package average;
 
 import java.util.List;
 
+
 public class AgentData {
     private String name;
     private List<String> linkedAgents;
@@ -12,6 +13,7 @@ public class AgentData {
         this.linkedAgents = linkedAgents;
         this.number = number;
     }
+
 
     public String getName() {
         return name;

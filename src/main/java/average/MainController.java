@@ -42,7 +42,6 @@ class MainController {
         List<AgentData> list = new ArrayList<>();
 
 
-
         list.add(new AgentData("01", Arrays.asList("02"), 100.00));
         list.add(new AgentData("02", Arrays.asList("01", "05", "03"), 200.00));
         list.add(new AgentData("03", Arrays.asList("02", "04"), 600.00));
